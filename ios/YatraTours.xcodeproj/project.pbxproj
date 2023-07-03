@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* YatraToursTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* YatraToursTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-YatraTours.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-YatraTours.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-YatraTours-YatraToursTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-YatraTours-YatraToursTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B2058C68A19045EC895B1328 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65F6D678369F4D00A8165468 /* AntDesign.ttf */; };
+		A7B832B12DB943C39346CD70 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94E986C4A144CFB99A80A99 /* Entypo.ttf */; };
+		C3550F73005445F08A82528C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA664B3EC8744BDBD569661 /* EvilIcons.ttf */; };
+		632ECC9FA8EB407DB12C4F73 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E01AAF4E641F488AB27AA01E /* Feather.ttf */; };
+		E0516FCDB75D470988599C9E /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E6277BEB51442C3840EBD3C /* FontAwesome.ttf */; };
+		34BDFCA60B294FCC9E01FB1E /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D73539A488DE40118ED1F1D7 /* FontAwesome5_Brands.ttf */; };
+		D2996D0E9F4C4194B070550B /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F13AD972A7341DBBA6AF233 /* FontAwesome5_Regular.ttf */; };
+		389B17C97EA4409DAB324014 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D0D3E145EA140BDAB8AF5C4 /* FontAwesome5_Solid.ttf */; };
+		ABA7A364DA014F069F8BA98C /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B253B82821B0445B8B7BEC57 /* Fontisto.ttf */; };
+		E7189CC0E6AE4347A8D503FD /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA3247103ADC4F19A6F7D7A3 /* Foundation.ttf */; };
+		9795B763F1CA453A95731BD1 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AB60F95CB104832BE8E85EC /* Ionicons.ttf */; };
+		AC35D45F8F854FEBBE4F10DF /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E720D42A5F54A58A83E8A8C /* MaterialCommunityIcons.ttf */; };
+		E6CDA6FC5A5B483E8C91727A /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1468E17946E4B1DAC2520D7 /* MaterialIcons.ttf */; };
+		94A94CAA7CF74E428D38C0B0 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 102182E13D3F4B648A14D1FF /* Octicons.ttf */; };
+		249C18E182104DC6BBF1EB49 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2799FE6841E4743B981A013 /* SimpleLineIcons.ttf */; };
+		1D754194954C49698631100D /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B38BB6BE6434A09B2446E70 /* Zocial.ttf */; };
+		0D3CCF37F5A64FB4B0B513C7 /* Geologica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48F33CDDD5CC49A4836027C0 /* Geologica.ttf */; };
+		808C79C83AC34D2496B75279 /* Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEFC21CB33044ADBB1B31CDF /* Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf */; };
+		405AC7F99FF5477FABCF4556 /* Geologica_Auto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A017680B7BB24EF58F0A5A4C /* Geologica_Auto-Black.ttf */; };
+		8FDDEE47AEC048BB95C07514 /* Geologica_Auto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B123D6FB53A4E7CAD3465F8 /* Geologica_Auto-Bold.ttf */; };
+		8D659024C0B04BF2A8BF982C /* Geologica_Auto-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7BAE4B3002D419DAF0B5D09 /* Geologica_Auto-ExtraBold.ttf */; };
+		09F32F2AC9334B2089352319 /* Geologica_Auto-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A89CBACA51840AEAC69ED6B /* Geologica_Auto-ExtraLight.ttf */; };
+		1DB9380BCFBB46E5961B5FCA /* Geologica_Auto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23F79CD5D0414F198602936A /* Geologica_Auto-Light.ttf */; };
+		82358D739E9D4A8992170308 /* Geologica_Auto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0403E248B19A4A188F2B0622 /* Geologica_Auto-Medium.ttf */; };
+		D07259A3150F46149AE1E59C /* Geologica_Auto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0E89D2C21754C9BB28756EA /* Geologica_Auto-Regular.ttf */; };
+		8841DB1926234F379BDB0E55 /* Geologica_Auto-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF97DEECEE6142D889FA27EE /* Geologica_Auto-SemiBold.ttf */; };
+		97AB25BC4B58460A8A5A1444 /* Geologica_Auto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8106321747F445DAD5AEF1A /* Geologica_Auto-Thin.ttf */; };
+		600589CF43E149A2B2F608DE /* Geologica_Cursive-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07ED59733FAC48A8A7CD32C0 /* Geologica_Cursive-Black.ttf */; };
+		C5701E7912824DF4BE7FDD61 /* Geologica_Cursive-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5402AF163157474DAFC53AFC /* Geologica_Cursive-Bold.ttf */; };
+		129481EFED574A3182944F40 /* Geologica_Cursive-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1302C43CAC80440B8B218AD2 /* Geologica_Cursive-ExtraBold.ttf */; };
+		9DA456C51A524B9D8A199323 /* Geologica_Cursive-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61BB7A4D533B4DC3B0347B01 /* Geologica_Cursive-ExtraLight.ttf */; };
+		C3EC0D99273C4C92B0581DD1 /* Geologica_Cursive-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73B274D3595E47149D77F6C3 /* Geologica_Cursive-Light.ttf */; };
+		8AE58A5FF5614EA48F1EEF18 /* Geologica_Cursive-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36BD3A8175664E7ABCCDEDA1 /* Geologica_Cursive-Medium.ttf */; };
+		1DD0EDFD827A4B1093CC3650 /* Geologica_Cursive-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A48B48979F15402D97182A4B /* Geologica_Cursive-SemiBold.ttf */; };
+		7B90400C5D53485FB8377BE5 /* Geologica_Cursive-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF0987BE832C46EE8C2E15AA /* Geologica_Cursive-Thin.ttf */; };
+		434A31D317E946F2A642CC78 /* Geologica-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF2ECB866C04F008C61E67F /* Geologica-Black.ttf */; };
+		979385646D244A76942ECB34 /* Geologica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2859A38D769B40C4A1DC9F12 /* Geologica-Bold.ttf */; };
+		68EE16C286104417A44FE25C /* Geologica-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDE0206725294A87BFCC481A /* Geologica-ExtraBold.ttf */; };
+		D4B5845BB3804178ADCA50C6 /* Geologica-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81AA96D2A10A4DFEA8BF425D /* Geologica-ExtraLight.ttf */; };
+		4919A30B35F143AE9C9E4D6A /* Geologica-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03454FF932A44C3C861FCB6B /* Geologica-Light.ttf */; };
+		AA1868C4052D424992442BC1 /* Geologica-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1CDD614666B40EA87F69358 /* Geologica-Medium.ttf */; };
+		CD1DEF423AF1411F995DED19 /* Geologica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A261FAC62F604E54B8AB0D3E /* Geologica-Regular.ttf */; };
+		52F6FD4D00F649B188EDBC9D /* Geologica-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79872108CF8F4CE0A47CC835 /* Geologica-SemiBold.ttf */; };
+		7235618014994FD3A12B2C4C /* Geologica-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48CE7299742244E69DC45401 /* Geologica-Thin.ttf */; };
+		630D436A41B5487082AD828F /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E5865D4C85A472B846F4B13 /* Poppins-ExtraLightItalic.ttf */; };
+		B825A6EB88C047459C4F6330 /* Poppins.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF91206BC7264830BED00382 /* Poppins.ttf */; };
+		E87798E56FF24DB097943D9F /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 547C0F7D1FEA496E82DFA15E /* Poppins-Black.ttf */; };
+		49C5EEB29C72465AB39845E1 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7B351B95BC4BDAA06271A2 /* Poppins-BlackItalic.ttf */; };
+		38FBFAE68C6A42A4BCA32839 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80C1052EB2B449D5BC2532D3 /* Poppins-Bold.ttf */; };
+		3755AF399C1341E1B3B654F6 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB2E6587DC174316B7CDA5B7 /* Poppins-ExtraBold.ttf */; };
+		ED8087CE058F4C358E8F3EA4 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC4A50057654C3CB3EB2A31 /* Poppins-ExtraBoldItalic.ttf */; };
+		374D7CA1402B4089BF7DB40B /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638805194FE7474DA65DE3B4 /* Poppins-ExtraLight.ttf */; };
+		A9CCEBBB5D374427A5277E04 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F4A9376007D4DC6B732C74A /* Poppins-Italic.ttf */; };
+		3D90903EA0CA48F89C5D5E79 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 269804194374477CB5A4621A /* Poppins-Light.ttf */; };
+		4EF8B16637E24ABF8FBAD095 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AC82AB503414C6AA435D010 /* Poppins-Medium.ttf */; };
+		3BB641E255374608914D6843 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 073B6049DAD34D2C8AD6A6AE /* Poppins-MediumItalic.ttf */; };
+		73B17E6082944F56910394AC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCCCD0EB5AFC40F0AF188EEC /* Poppins-Regular.ttf */; };
+		65620EC7BF514E6ABE2C9001 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B46097D97FC242FE906406C2 /* Poppins-SemiBold.ttf */; };
+		4EFF94D8703D473A967C27C4 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4758816443DB44EAB3127846 /* Poppins-SemiBoldItalic.ttf */; };
+		6A421F06D09047109EFADF01 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2801732BA5249F682E33298 /* Poppins-Thin.ttf */; };
+		DC3105BE6E304A6CB39BF84E /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9773D20FE4D406CBE8261A7 /* Poppins-ThinItalic.ttf */; };
+		61426FAB2547439D9EA7C8B4 /* Judul-Login.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18461396CA344EA3929425C1 /* Judul-Login.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = YatraTours;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* YatraToursTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YatraToursTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* YatraToursTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YatraToursTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* YatraTours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YatraTours.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YatraTours/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = YatraTours/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = YatraTours/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = YatraTours/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = YatraTours/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-YatraTours-YatraToursTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YatraTours-YatraToursTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-YatraTours.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatraTours.debug.xcconfig"; path = "Target Support Files/Pods-YatraTours/Pods-YatraTours.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-YatraTours.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatraTours.release.xcconfig"; path = "Target Support Files/Pods-YatraTours/Pods-YatraTours.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-YatraTours-YatraToursTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatraTours-YatraToursTests.debug.xcconfig"; path = "Target Support Files/Pods-YatraTours-YatraToursTests/Pods-YatraTours-YatraToursTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-YatraTours.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YatraTours.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = YatraTours/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-YatraTours-YatraToursTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatraTours-YatraToursTests.release.xcconfig"; path = "Target Support Files/Pods-YatraTours-YatraToursTests/Pods-YatraTours-YatraToursTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		65F6D678369F4D00A8165468 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A94E986C4A144CFB99A80A99 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BA664B3EC8744BDBD569661 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E01AAF4E641F488AB27AA01E /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9E6277BEB51442C3840EBD3C /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D73539A488DE40118ED1F1D7 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F13AD972A7341DBBA6AF233 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D0D3E145EA140BDAB8AF5C4 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B253B82821B0445B8B7BEC57 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA3247103ADC4F19A6F7D7A3 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6AB60F95CB104832BE8E85EC /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E720D42A5F54A58A83E8A8C /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1468E17946E4B1DAC2520D7 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		102182E13D3F4B648A14D1FF /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2799FE6841E4743B981A013 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B38BB6BE6434A09B2446E70 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48F33CDDD5CC49A4836027C0 /* Geologica.ttf */ = {isa = PBXFileReference; name = "Geologica.ttf"; path = "../assets/fonts/Geologica.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEFC21CB33044ADBB1B31CDF /* Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf */ = {isa = PBXFileReference; name = "Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf"; path = "../assets/fonts/Geologica/Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A017680B7BB24EF58F0A5A4C /* Geologica_Auto-Black.ttf */ = {isa = PBXFileReference; name = "Geologica_Auto-Black.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Auto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B123D6FB53A4E7CAD3465F8 /* Geologica_Auto-Bold.ttf */ = {isa = PBXFileReference; name = "Geologica_Auto-Bold.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Auto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7BAE4B3002D419DAF0B5D09 /* Geologica_Auto-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Geologica_Auto-ExtraBold.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Auto-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A89CBACA51840AEAC69ED6B /* Geologica_Auto-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Geologica_Auto-ExtraLight.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Auto-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		23F79CD5D0414F198602936A /* Geologica_Auto-Light.ttf */ = {isa = PBXFileReference; name = "Geologica_Auto-Light.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Auto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0403E248B19A4A188F2B0622 /* Geologica_Auto-Medium.ttf */ = {isa = PBXFileReference; name = "Geologica_Auto-Medium.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Auto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A0E89D2C21754C9BB28756EA /* Geologica_Auto-Regular.ttf */ = {isa = PBXFileReference; name = "Geologica_Auto-Regular.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Auto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FF97DEECEE6142D889FA27EE /* Geologica_Auto-SemiBold.ttf */ = {isa = PBXFileReference; name = "Geologica_Auto-SemiBold.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Auto-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8106321747F445DAD5AEF1A /* Geologica_Auto-Thin.ttf */ = {isa = PBXFileReference; name = "Geologica_Auto-Thin.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Auto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07ED59733FAC48A8A7CD32C0 /* Geologica_Cursive-Black.ttf */ = {isa = PBXFileReference; name = "Geologica_Cursive-Black.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Cursive-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5402AF163157474DAFC53AFC /* Geologica_Cursive-Bold.ttf */ = {isa = PBXFileReference; name = "Geologica_Cursive-Bold.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Cursive-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1302C43CAC80440B8B218AD2 /* Geologica_Cursive-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Geologica_Cursive-ExtraBold.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Cursive-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61BB7A4D533B4DC3B0347B01 /* Geologica_Cursive-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Geologica_Cursive-ExtraLight.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Cursive-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73B274D3595E47149D77F6C3 /* Geologica_Cursive-Light.ttf */ = {isa = PBXFileReference; name = "Geologica_Cursive-Light.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Cursive-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		36BD3A8175664E7ABCCDEDA1 /* Geologica_Cursive-Medium.ttf */ = {isa = PBXFileReference; name = "Geologica_Cursive-Medium.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Cursive-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A48B48979F15402D97182A4B /* Geologica_Cursive-SemiBold.ttf */ = {isa = PBXFileReference; name = "Geologica_Cursive-SemiBold.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Cursive-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FF0987BE832C46EE8C2E15AA /* Geologica_Cursive-Thin.ttf */ = {isa = PBXFileReference; name = "Geologica_Cursive-Thin.ttf"; path = "../assets/fonts/Geologica/static/Geologica_Cursive-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4EF2ECB866C04F008C61E67F /* Geologica-Black.ttf */ = {isa = PBXFileReference; name = "Geologica-Black.ttf"; path = "../assets/fonts/Geologica/static/Geologica-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2859A38D769B40C4A1DC9F12 /* Geologica-Bold.ttf */ = {isa = PBXFileReference; name = "Geologica-Bold.ttf"; path = "../assets/fonts/Geologica/static/Geologica-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDE0206725294A87BFCC481A /* Geologica-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Geologica-ExtraBold.ttf"; path = "../assets/fonts/Geologica/static/Geologica-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81AA96D2A10A4DFEA8BF425D /* Geologica-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Geologica-ExtraLight.ttf"; path = "../assets/fonts/Geologica/static/Geologica-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		03454FF932A44C3C861FCB6B /* Geologica-Light.ttf */ = {isa = PBXFileReference; name = "Geologica-Light.ttf"; path = "../assets/fonts/Geologica/static/Geologica-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A1CDD614666B40EA87F69358 /* Geologica-Medium.ttf */ = {isa = PBXFileReference; name = "Geologica-Medium.ttf"; path = "../assets/fonts/Geologica/static/Geologica-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A261FAC62F604E54B8AB0D3E /* Geologica-Regular.ttf */ = {isa = PBXFileReference; name = "Geologica-Regular.ttf"; path = "../assets/fonts/Geologica/static/Geologica-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79872108CF8F4CE0A47CC835 /* Geologica-SemiBold.ttf */ = {isa = PBXFileReference; name = "Geologica-SemiBold.ttf"; path = "../assets/fonts/Geologica/static/Geologica-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48CE7299742244E69DC45401 /* Geologica-Thin.ttf */ = {isa = PBXFileReference; name = "Geologica-Thin.ttf"; path = "../assets/fonts/Geologica/static/Geologica-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E5865D4C85A472B846F4B13 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLightItalic.ttf"; path = "../assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF91206BC7264830BED00382 /* Poppins.ttf */ = {isa = PBXFileReference; name = "Poppins.ttf"; path = "../assets/fonts/Poppins.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		547C0F7D1FEA496E82DFA15E /* Poppins-Black.ttf */ = {isa = PBXFileReference; name = "Poppins-Black.ttf"; path = "../assets/fonts/Poppins/Poppins-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F7B351B95BC4BDAA06271A2 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-BlackItalic.ttf"; path = "../assets/fonts/Poppins/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		80C1052EB2B449D5BC2532D3 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB2E6587DC174316B7CDA5B7 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4EC4A50057654C3CB3EB2A31 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBoldItalic.ttf"; path = "../assets/fonts/Poppins/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		638805194FE7474DA65DE3B4 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLight.ttf"; path = "../assets/fonts/Poppins/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F4A9376007D4DC6B732C74A /* Poppins-Italic.ttf */ = {isa = PBXFileReference; name = "Poppins-Italic.ttf"; path = "../assets/fonts/Poppins/Poppins-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		269804194374477CB5A4621A /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4AC82AB503414C6AA435D010 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		073B6049DAD34D2C8AD6A6AE /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-MediumItalic.ttf"; path = "../assets/fonts/Poppins/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCCCD0EB5AFC40F0AF188EEC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B46097D97FC242FE906406C2 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4758816443DB44EAB3127846 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBoldItalic.ttf"; path = "../assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2801732BA5249F682E33298 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9773D20FE4D406CBE8261A7 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-ThinItalic.ttf"; path = "../assets/fonts/Poppins/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		18461396CA344EA3929425C1 /* Judul-Login.ttf */ = {isa = PBXFileReference; name = "Judul-Login.ttf"; path = "../assets/fonts/Judul-Login.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-YatraTours-YatraToursTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-YatraTours.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* YatraToursTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* YatraToursTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = YatraToursTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* YatraTours */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = YatraTours;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-YatraTours.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-YatraTours-YatraToursTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* YatraTours */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* YatraToursTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F521DB660FC24D9DA4E70BBC /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* YatraTours.app */,
+				00E356EE1AD99517003FC87E /* YatraToursTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-YatraTours.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-YatraTours.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-YatraTours-YatraToursTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-YatraTours-YatraToursTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F521DB660FC24D9DA4E70BBC /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				65F6D678369F4D00A8165468 /* AntDesign.ttf */,
+				A94E986C4A144CFB99A80A99 /* Entypo.ttf */,
+				1BA664B3EC8744BDBD569661 /* EvilIcons.ttf */,
+				E01AAF4E641F488AB27AA01E /* Feather.ttf */,
+				9E6277BEB51442C3840EBD3C /* FontAwesome.ttf */,
+				D73539A488DE40118ED1F1D7 /* FontAwesome5_Brands.ttf */,
+				3F13AD972A7341DBBA6AF233 /* FontAwesome5_Regular.ttf */,
+				0D0D3E145EA140BDAB8AF5C4 /* FontAwesome5_Solid.ttf */,
+				B253B82821B0445B8B7BEC57 /* Fontisto.ttf */,
+				DA3247103ADC4F19A6F7D7A3 /* Foundation.ttf */,
+				6AB60F95CB104832BE8E85EC /* Ionicons.ttf */,
+				8E720D42A5F54A58A83E8A8C /* MaterialCommunityIcons.ttf */,
+				C1468E17946E4B1DAC2520D7 /* MaterialIcons.ttf */,
+				102182E13D3F4B648A14D1FF /* Octicons.ttf */,
+				D2799FE6841E4743B981A013 /* SimpleLineIcons.ttf */,
+				6B38BB6BE6434A09B2446E70 /* Zocial.ttf */,
+				48F33CDDD5CC49A4836027C0 /* Geologica.ttf */,
+				BEFC21CB33044ADBB1B31CDF /* Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf */,
+				A017680B7BB24EF58F0A5A4C /* Geologica_Auto-Black.ttf */,
+				5B123D6FB53A4E7CAD3465F8 /* Geologica_Auto-Bold.ttf */,
+				A7BAE4B3002D419DAF0B5D09 /* Geologica_Auto-ExtraBold.ttf */,
+				9A89CBACA51840AEAC69ED6B /* Geologica_Auto-ExtraLight.ttf */,
+				23F79CD5D0414F198602936A /* Geologica_Auto-Light.ttf */,
+				0403E248B19A4A188F2B0622 /* Geologica_Auto-Medium.ttf */,
+				A0E89D2C21754C9BB28756EA /* Geologica_Auto-Regular.ttf */,
+				FF97DEECEE6142D889FA27EE /* Geologica_Auto-SemiBold.ttf */,
+				E8106321747F445DAD5AEF1A /* Geologica_Auto-Thin.ttf */,
+				07ED59733FAC48A8A7CD32C0 /* Geologica_Cursive-Black.ttf */,
+				5402AF163157474DAFC53AFC /* Geologica_Cursive-Bold.ttf */,
+				1302C43CAC80440B8B218AD2 /* Geologica_Cursive-ExtraBold.ttf */,
+				61BB7A4D533B4DC3B0347B01 /* Geologica_Cursive-ExtraLight.ttf */,
+				73B274D3595E47149D77F6C3 /* Geologica_Cursive-Light.ttf */,
+				36BD3A8175664E7ABCCDEDA1 /* Geologica_Cursive-Medium.ttf */,
+				A48B48979F15402D97182A4B /* Geologica_Cursive-SemiBold.ttf */,
+				FF0987BE832C46EE8C2E15AA /* Geologica_Cursive-Thin.ttf */,
+				4EF2ECB866C04F008C61E67F /* Geologica-Black.ttf */,
+				2859A38D769B40C4A1DC9F12 /* Geologica-Bold.ttf */,
+				DDE0206725294A87BFCC481A /* Geologica-ExtraBold.ttf */,
+				81AA96D2A10A4DFEA8BF425D /* Geologica-ExtraLight.ttf */,
+				03454FF932A44C3C861FCB6B /* Geologica-Light.ttf */,
+				A1CDD614666B40EA87F69358 /* Geologica-Medium.ttf */,
+				A261FAC62F604E54B8AB0D3E /* Geologica-Regular.ttf */,
+				79872108CF8F4CE0A47CC835 /* Geologica-SemiBold.ttf */,
+				48CE7299742244E69DC45401 /* Geologica-Thin.ttf */,
+				8E5865D4C85A472B846F4B13 /* Poppins-ExtraLightItalic.ttf */,
+				EF91206BC7264830BED00382 /* Poppins.ttf */,
+				547C0F7D1FEA496E82DFA15E /* Poppins-Black.ttf */,
+				3F7B351B95BC4BDAA06271A2 /* Poppins-BlackItalic.ttf */,
+				80C1052EB2B449D5BC2532D3 /* Poppins-Bold.ttf */,
+				BB2E6587DC174316B7CDA5B7 /* Poppins-ExtraBold.ttf */,
+				4EC4A50057654C3CB3EB2A31 /* Poppins-ExtraBoldItalic.ttf */,
+				638805194FE7474DA65DE3B4 /* Poppins-ExtraLight.ttf */,
+				5F4A9376007D4DC6B732C74A /* Poppins-Italic.ttf */,
+				269804194374477CB5A4621A /* Poppins-Light.ttf */,
+				4AC82AB503414C6AA435D010 /* Poppins-Medium.ttf */,
+				073B6049DAD34D2C8AD6A6AE /* Poppins-MediumItalic.ttf */,
+				BCCCD0EB5AFC40F0AF188EEC /* Poppins-Regular.ttf */,
+				B46097D97FC242FE906406C2 /* Poppins-SemiBold.ttf */,
+				4758816443DB44EAB3127846 /* Poppins-SemiBoldItalic.ttf */,
+				B2801732BA5249F682E33298 /* Poppins-Thin.ttf */,
+				D9773D20FE4D406CBE8261A7 /* Poppins-ThinItalic.ttf */,
+				18461396CA344EA3929425C1 /* Judul-Login.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* YatraToursTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YatraToursTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = YatraToursTests;
+			productName = YatraToursTests;
+			productReference = 00E356EE1AD99517003FC87E /* YatraToursTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* YatraTours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YatraTours" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YatraTours;
+			productName = YatraTours;
+			productReference = 13B07F961A680F5B00A75B9A /* YatraTours.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YatraTours" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* YatraTours */,
+				00E356ED1AD99517003FC87E /* YatraToursTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B2058C68A19045EC895B1328 /* AntDesign.ttf in Resources */,
+				A7B832B12DB943C39346CD70 /* Entypo.ttf in Resources */,
+				C3550F73005445F08A82528C /* EvilIcons.ttf in Resources */,
+				632ECC9FA8EB407DB12C4F73 /* Feather.ttf in Resources */,
+				E0516FCDB75D470988599C9E /* FontAwesome.ttf in Resources */,
+				34BDFCA60B294FCC9E01FB1E /* FontAwesome5_Brands.ttf in Resources */,
+				D2996D0E9F4C4194B070550B /* FontAwesome5_Regular.ttf in Resources */,
+				389B17C97EA4409DAB324014 /* FontAwesome5_Solid.ttf in Resources */,
+				ABA7A364DA014F069F8BA98C /* Fontisto.ttf in Resources */,
+				E7189CC0E6AE4347A8D503FD /* Foundation.ttf in Resources */,
+				9795B763F1CA453A95731BD1 /* Ionicons.ttf in Resources */,
+				AC35D45F8F854FEBBE4F10DF /* MaterialCommunityIcons.ttf in Resources */,
+				E6CDA6FC5A5B483E8C91727A /* MaterialIcons.ttf in Resources */,
+				94A94CAA7CF74E428D38C0B0 /* Octicons.ttf in Resources */,
+				249C18E182104DC6BBF1EB49 /* SimpleLineIcons.ttf in Resources */,
+				1D754194954C49698631100D /* Zocial.ttf in Resources */,
+				0D3CCF37F5A64FB4B0B513C7 /* Geologica.ttf in Resources */,
+				808C79C83AC34D2496B75279 /* Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf in Resources */,
+				405AC7F99FF5477FABCF4556 /* Geologica_Auto-Black.ttf in Resources */,
+				8FDDEE47AEC048BB95C07514 /* Geologica_Auto-Bold.ttf in Resources */,
+				8D659024C0B04BF2A8BF982C /* Geologica_Auto-ExtraBold.ttf in Resources */,
+				09F32F2AC9334B2089352319 /* Geologica_Auto-ExtraLight.ttf in Resources */,
+				1DB9380BCFBB46E5961B5FCA /* Geologica_Auto-Light.ttf in Resources */,
+				82358D739E9D4A8992170308 /* Geologica_Auto-Medium.ttf in Resources */,
+				D07259A3150F46149AE1E59C /* Geologica_Auto-Regular.ttf in Resources */,
+				8841DB1926234F379BDB0E55 /* Geologica_Auto-SemiBold.ttf in Resources */,
+				97AB25BC4B58460A8A5A1444 /* Geologica_Auto-Thin.ttf in Resources */,
+				600589CF43E149A2B2F608DE /* Geologica_Cursive-Black.ttf in Resources */,
+				C5701E7912824DF4BE7FDD61 /* Geologica_Cursive-Bold.ttf in Resources */,
+				129481EFED574A3182944F40 /* Geologica_Cursive-ExtraBold.ttf in Resources */,
+				9DA456C51A524B9D8A199323 /* Geologica_Cursive-ExtraLight.ttf in Resources */,
+				C3EC0D99273C4C92B0581DD1 /* Geologica_Cursive-Light.ttf in Resources */,
+				8AE58A5FF5614EA48F1EEF18 /* Geologica_Cursive-Medium.ttf in Resources */,
+				1DD0EDFD827A4B1093CC3650 /* Geologica_Cursive-SemiBold.ttf in Resources */,
+				7B90400C5D53485FB8377BE5 /* Geologica_Cursive-Thin.ttf in Resources */,
+				434A31D317E946F2A642CC78 /* Geologica-Black.ttf in Resources */,
+				979385646D244A76942ECB34 /* Geologica-Bold.ttf in Resources */,
+				68EE16C286104417A44FE25C /* Geologica-ExtraBold.ttf in Resources */,
+				D4B5845BB3804178ADCA50C6 /* Geologica-ExtraLight.ttf in Resources */,
+				4919A30B35F143AE9C9E4D6A /* Geologica-Light.ttf in Resources */,
+				AA1868C4052D424992442BC1 /* Geologica-Medium.ttf in Resources */,
+				CD1DEF423AF1411F995DED19 /* Geologica-Regular.ttf in Resources */,
+				52F6FD4D00F649B188EDBC9D /* Geologica-SemiBold.ttf in Resources */,
+				7235618014994FD3A12B2C4C /* Geologica-Thin.ttf in Resources */,
+				630D436A41B5487082AD828F /* Poppins-ExtraLightItalic.ttf in Resources */,
+				B825A6EB88C047459C4F6330 /* Poppins.ttf in Resources */,
+				E87798E56FF24DB097943D9F /* Poppins-Black.ttf in Resources */,
+				49C5EEB29C72465AB39845E1 /* Poppins-BlackItalic.ttf in Resources */,
+				38FBFAE68C6A42A4BCA32839 /* Poppins-Bold.ttf in Resources */,
+				3755AF399C1341E1B3B654F6 /* Poppins-ExtraBold.ttf in Resources */,
+				ED8087CE058F4C358E8F3EA4 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				374D7CA1402B4089BF7DB40B /* Poppins-ExtraLight.ttf in Resources */,
+				A9CCEBBB5D374427A5277E04 /* Poppins-Italic.ttf in Resources */,
+				3D90903EA0CA48F89C5D5E79 /* Poppins-Light.ttf in Resources */,
+				4EF8B16637E24ABF8FBAD095 /* Poppins-Medium.ttf in Resources */,
+				3BB641E255374608914D6843 /* Poppins-MediumItalic.ttf in Resources */,
+				73B17E6082944F56910394AC /* Poppins-Regular.ttf in Resources */,
+				65620EC7BF514E6ABE2C9001 /* Poppins-SemiBold.ttf in Resources */,
+				4EFF94D8703D473A967C27C4 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				6A421F06D09047109EFADF01 /* Poppins-Thin.ttf in Resources */,
+				DC3105BE6E304A6CB39BF84E /* Poppins-ThinItalic.ttf in Resources */,
+				61426FAB2547439D9EA7C8B4 /* Judul-Login.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatraTours/Pods-YatraTours-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatraTours/Pods-YatraTours-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YatraTours/Pods-YatraTours-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YatraTours-YatraToursTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YatraTours-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatraTours-YatraToursTests/Pods-YatraTours-YatraToursTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatraTours-YatraToursTests/Pods-YatraTours-YatraToursTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YatraTours-YatraToursTests/Pods-YatraTours-YatraToursTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatraTours/Pods-YatraTours-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatraTours/Pods-YatraTours-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YatraTours/Pods-YatraTours-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatraTours-YatraToursTests/Pods-YatraTours-YatraToursTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatraTours-YatraToursTests/Pods-YatraTours-YatraToursTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YatraTours-YatraToursTests/Pods-YatraTours-YatraToursTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* YatraToursTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* YatraTours */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-YatraTours-YatraToursTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YatraToursTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YatraTours.app/YatraTours";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-YatraTours-YatraToursTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = YatraToursTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YatraTours.app/YatraTours";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-YatraTours.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = YatraTours/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = YatraTours;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-YatraTours.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = YatraTours/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = YatraTours;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YatraToursTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YatraTours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YatraTours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
